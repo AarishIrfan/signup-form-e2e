@@ -1,0 +1,115 @@
+
+Entering npm script environment at location:
+D:\automating-practice-form
+Type 'exit' or ^D when finished
+
+Microsoft Windows [Version 10.0.26200.7840]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\automating-practice-form>
+D:\automating-practice-form>D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>D:\automating-practice-form>
+D:\automating-practice-form>D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>D:\automating-practice-form>
+D:\automating-practice-form>D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>D:\automating-practice-form>
+D:\automating-practice-form>D:\automating-practice-form>
+Running 6 tests using 4 workers
+
+[1A[2K[1/6] [chromium] › tests\example.spec.ts:3:5 › has title
+[1A[2K[2/6] [firefox] › tests\example.spec.ts:3:5 › has title
+[1A[2K[3/6] [chromium] › tests\example.spec.ts:10:5 › get started link
+[1A[2K[4/6] [firefox] › tests\example.spec.ts:10:5 › get started link
+[1A[2K[5/6] [webkit] › tests\example.spec.ts:3:5 › has title
+[1A[2K[6/6] [webkit] › tests\example.spec.ts:10:5 › get started link
+[1A[2K  6 passed (22.2s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+
+D:\automating-practice-form>
+D:\automating-practice-form>D:\automating-practice-form>
+D:\automating-practice-form>
+D:\automating-practice-form>D:\automating-practice-form>
+Running 2 tests using 2 workers
+
+[1A[2K[1/2] [chromium] › tests\example.spec.ts:10:5 › get started link
+[1A[2K[2/2] [chromium] › tests\example.spec.ts:3:5 › has title
+[1A[2K  2 passed (4.4s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+
+D:\automating-practice-form>
+D:\automating-practice-form>D:\automating-practice-form>
+Running 6 tests using 4 workers
+
+[1A[2K[1/6] [firefox] › tests\example.spec.ts:3:5 › has title
+[1A[2K[2/6] [firefox] › tests\example.spec.ts:10:5 › get started link
+[1A[2K[3/6] [chromium] › tests\example.spec.ts:10:5 › get started link
+[1A[2K[4/6] [chromium] › tests\example.spec.ts:3:5 › has title
+[1A[2K[5/6] [webkit] › tests\example.spec.ts:3:5 › has title
+[1A[2K[6/6] [webkit] › tests\example.spec.ts:10:5 › get started link
+[1A[2K  6 passed (15.3s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+
+D:\automating-practice-form>
+D:\automating-practice-form>D:\automating-practice-form>
+Running 6 tests using 1 worker
+
+[1A[2K[1/6] [chromium] › tests\example.spec.ts:3:5 › has title
+[1A[2K  1) [chromium] › tests\example.spec.ts:3:5 › has title ────────────────────────────────────────────
+
+    Error: page.goto: Target page, context or browser has been closed
+
+      2 |
+      3 | test('has title', async ({ page }) => {
+    > 4 |   await page.goto('https://playwright.dev/');
+        |              ^
+      5 |
+      6 |   // Expect a title "to contain" a substring.
+      7 |   await expect(page).toHaveTitle(/Playwright/);
+        at D:\automating-practice-form\tests\example.spec.ts:4:14
+
+
+[1A[2K[31mTesting stopped early after 1 maximum allowed failures.[39m
+
+[1A[2K  1 failed
+    [chromium] › tests\example.spec.ts:3:5 › has title ─────────────────────────────────────────────
+  5 did not run
+  1 error was not a part of any test, see above for details
+
+[36m  Serving HTML report at http://localhost:9323. Press Ctrl+C to quit.[39m
